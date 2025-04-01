@@ -47,6 +47,35 @@
                 overflow: auto;
                 display: table;
             }
+            .search-container {
+            display: flex;
+            align-items: center;
+            width: 300px;
+            border: 2px solid #333;
+            border-radius: 25px;
+            padding: 5px;
+            overflow: hidden;
+        }
+
+        .search-container input {
+            border: none;
+            outline: none;
+            flex: 1;
+            padding: 8px;
+        }
+
+        .search-container button {
+            background: #333;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            cursor: pointer;
+            border-radius: 0 25px 25px 0;
+        }
+
+        .search-container button:hover {
+            background: #555;
+        }
         </style> 
         <script>
 
@@ -76,7 +105,10 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="/Users/harathibupurigmail.com/Desktop/assignment2/checkout.html">Rooms: (<span id="room-count">0</span>)</a>
             <a class="active" href="/Users/harathibupurigmail.com/Desktop/assignment2/home2.html">Home</a>
             </div>
-  
+            <div class="search-container">
+                <input type="text" placeholder="Search...">
+                <button>🔍</button>
+            </div>
     
         <h1>Rooms to book</h1>
         <div class="room-container">
