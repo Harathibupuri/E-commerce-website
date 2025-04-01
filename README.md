@@ -22,7 +22,7 @@ Make sure you have the following installed:
 
 e-commerce
 |-README.md
-
+|-home.html
 
 # Installation
 
