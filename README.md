@@ -24,10 +24,6 @@ e-commerce
 |-README.md
 |-home.html
 
-<<<<<<< HEAD
-=======
-
->>>>>>> search
 # Installation
 
 Project installation and setup guide includes the following commands:
